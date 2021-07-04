@@ -111,6 +111,7 @@ def leaveoutform():
 def gatepasstrial():
     return render_template("./forms/Gate-pass.html")
 
+
 '''
 #LeavBook trial
 @app.route("/lbook", methods=["POST"])
